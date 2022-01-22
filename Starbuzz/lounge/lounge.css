@@ -1,7 +1,10 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    }
 h1,
     h2 {
-      font-family: sans-serif;
-      color: gray;
+            color: gray;
 
     }
 
@@ -11,4 +14,14 @@ h1,
 
     p {
       color: maroon;
+    }
+
+    blockquote.greentea, p.greentea {
+        color: green;
+        }
+    p.raspberry {
+        color: blue;
+    }
+    p.blueberry {
+        color: purple;
     }
