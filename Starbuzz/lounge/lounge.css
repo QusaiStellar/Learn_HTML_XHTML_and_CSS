@@ -32,8 +32,7 @@ p.blueberry {
     color: purple;
 }
 
-.guarantee {
-    border-color: black;
+#guarantee {
     border-width: 1px;
     border-style: dashed;
     border-color: white;
