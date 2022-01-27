@@ -32,3 +32,68 @@ blockquote {
     font-style: italic;
 }
 
+table {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: thin solid black;
+    caption-side: bottom;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: thin dotted gray;
+    padding: 5px;
+}
+
+th {
+    border: thin solid black;
+    background-color: #ff962d;
+}
+
+caption {
+    font-style: italic;
+    padding-top: 8px;
+}
+
+.cell_center {
+    text-align: center;
+}
+
+.cell_right {
+    text-align: right;
+}
+
+/*
+tr:nth-child(2n+1) {
+    background-color: #fcba7a;  
+}
+*/
+
+.cell_color {
+    background-color: #fcba7a;
+}
+
+table table {
+    margin-left: auto;    
+    margin-right: auto;
+}
+
+table table th {
+    background-color: white;
+}
+
+table table tr {
+    background-color: rgb(82, 82, 255);
+}
+
+table table tr:nth-child(odd) {
+    background-color: rgb(255, 162, 178);
+}
+
+li {
+    list-style-image: url(images/backpack.gif); 
+    padding-top: 5px;
+    margin-left: 20px;
+}
+
+

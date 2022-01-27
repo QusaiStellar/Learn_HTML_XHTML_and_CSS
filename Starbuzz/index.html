@@ -9,17 +9,24 @@
 
 <body>
     <div id="allcontent">
-        <div id="header">
+        <header class="top">
             <img id="headLogo" src="images/headerLogo.gif" alt="Starbuzz Coffee header logo">
             <img id="headSlogan" src="images/headerSlogan.gif" arl="Starbuzz Coffee headre slogan">
-        </div>
-        <div id="award">
-            <img src="images/award.gif" alt="Награда обжарщику года">
-        </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li class="selected"><a href="index.html">ДОМОЙ</a></li>
+                <li><a href="blog.html">БЛОГ</a></li>
+                <li><a href="">ИЗОБРЕТЕНИЯ</a></li>
+                <li><a href="">РЕЦЕПТЫ</a></li>
+                <li><a href="">АДРЕСА</a></li>
+            </ul>
+        </nav>
 
         <div id="tableContainer">
             <div id="tableRow">
-                <div id="drinks">
+                <section id="drinks">
                     <h1>НАПИТКИ</h1>
                     <p>Домашняя смесь, $1.49</p>
                     <p>Кофе мокко, $2.35</p>
@@ -36,12 +43,8 @@
                     <p>Клюквенный антиоксидатный взрыв, $2.99</p>
                     <p>Чай "Льдинк", $2.99</p>
                     <p>"Подзарядка для мозга", $2.99</p>
-                    <div id="coupon">
-                        <a href="freecoffe.html" title="Щелкните здесь, чтобы получить бесплатный
-                        кофе"><img src="images/ticket.gif" alt="Купон на бесплатный кофе Starbuzz"></a>
-                    </div>
-                </div>
-                <div id="main">
+                </section>
+                <section id="main">
                     <h1>QUALITY COFFEE, QUALITY CAFFEINE</h1>
                     <p>
                         At Starbuzz Coffee, we are dedicated to filling all your caffeine needs through our
@@ -86,9 +89,9 @@
                         <a href="form.html">Bean Machine</a>, and take
                         the Starbuzz Coffee experience home.
                     </p>
-                </div>
+                </section>
 
-                <div id="sidebar">
+                <aside>
                     <p class="beanheading">
                         <img src="images/bag.gif" alt="Bean Machine bag">
                         <br>
@@ -108,15 +111,15 @@
                         enter your order, and behind the scenes, your coffee is roasted, ground
                         (if you want), packaged, and shipped to your door.
                     </p>
-                </div>
+                </aside>
             </div>
         </div>
-        <div id="footer">
+        <footer>
             &copy; 2012, Starbuzz Coffee
             <br>
             All trademarks and registered trademarks appearing on
             this site are the property of their respective owners.
-        </div>
+        </footer>
     </div>
 
 </body>
